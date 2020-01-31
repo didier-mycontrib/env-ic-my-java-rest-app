@@ -9,6 +9,6 @@ COPY  target/env-ic-my-java-rest-app.jar  ./
 
 #optimisation possible : https://spring.io/guides/topicals/spring-boot-docker
 
-EXPOSE 8080
+EXPOSE 8181
 
 CMD ["java","-jar","env-ic-my-java-rest-app.jar" ]
