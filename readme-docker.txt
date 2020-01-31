@@ -7,3 +7,4 @@ docker image ls
 docker run -p 8181:8181 -d --name my-api-container  dockregistry.mycompany.fun/env-ic-my-java-rest-app:latest
 docker run -p 8181:8181 -d --name my-api-container --network mynetwork --network-alias=my.api.host dockregistry.mycompany.fun/env-ic-my-java-rest-app
 docker container ls
+===
